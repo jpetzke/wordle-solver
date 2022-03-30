@@ -1,0 +1,11 @@
+﻿pizza
+lunge
+candy
+house
+human
+regex
+apple
+peach
+water
+excel
+notes
