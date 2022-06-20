@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Wordle_Solver
 {
-    public class Constants
+    public class Options
     {
-        public const string wordlist = "C:\\Users\\jonas\\Code\\C#\\Wordle_Solver\\Wordle_Solver\\english_words.txt";
+        public string wordlist = "C:\\Users\\jonas\\Code\\C#\\Wordle_Solver\\Wordle_Solver\\english_words.txt";
     }
 }
