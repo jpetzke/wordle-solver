@@ -8,6 +8,6 @@ namespace Wordle_Solver
 {
     public class Options
     {
-        public string wordlist = "C:\\Users\\jonas\\Code\\C#\\Wordle_Solver\\Wordle_Solver\\english_words.txt";
+        public string wordlist = "";
     }
 }

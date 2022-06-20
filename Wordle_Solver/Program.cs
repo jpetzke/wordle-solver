@@ -3,12 +3,19 @@
 Options options = new Options();
 
 // get wordlist from the argument 
-options.wordlist = args[0];
+try
+{
+    options.wordlist = args[0];
+}
+catch (System.IndexOutOfRangeException)
+{
+    Console.WriteLine("Usage: Wordle_Solver.exe \"C:\\path\\to\\wordlist.txt\"");
+}
 
 string[] file = new string[0];
 
 try
-{ 
+{
     file = System.IO.File.ReadAllLines(options.wordlist);
     Console.WriteLine("Loaded wordlist from " + options.wordlist);
     Console.WriteLine("Wordlist contains " + file.Length + " words");
