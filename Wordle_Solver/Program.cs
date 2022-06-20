@@ -10,6 +10,7 @@ try
 catch (System.IndexOutOfRangeException)
 {
     Console.WriteLine("Usage: Wordle_Solver.exe \"C:\\path\\to\\wordlist.txt\"");
+    System.Environment.Exit(1);
 }
 
 string[] file = new string[0];
